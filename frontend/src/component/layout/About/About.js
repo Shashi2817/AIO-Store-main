@@ -26,28 +26,28 @@ const About = () => {
               src={faisal}
               alt="Founder"
             />
-            <Typography>MD Faisal Raza</Typography>
+            <Typography>Shashi Kumar Ranjan</Typography>
             <Button onClick={visitPortfolio} color="primary">
               Visit My PortFolio
             </Button>
-            <span>
+            {/* <span>
               This is a sample wesbite made by @meabhisingh. Only with the
               purpose to teach MERN Stack on the channel 6 Pack Programmer
-            </span>
+            </span> */}
           </div>
           <div className="aboutSectionContainer2">
            <Typography component="h2">Social Networks</Typography>
             <a
-              href="https://www.linkedin.com/in/faisal-raza-86556a258"
+              href="https://www.linkedin.com/in/shashi-kumar-ranjan-b31a51225/"
               target="blank"
             >
             <img className="img-link" src={linkedin} />
             </a>
 
-            <a  href="https://github.com/Faisal55raza?tab=repositories" target="blank">
+            <a  href="https://github.com/Shashi2817?tab=repositories" target="blank">
               <img className="img-link" src={github} />
             </a>
-            <a  href="https://leetcode.com/u/Fz_227017/" target="blank">
+            <a  href="https://leetcode.com/u/Shashi2817/" target="blank">
               <img className="img-link" src={leetcode} />
             </a>
           </div>
